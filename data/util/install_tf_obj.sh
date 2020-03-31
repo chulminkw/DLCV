@@ -9,3 +9,5 @@ pip install keras==2.3.0
 pip install contextlib2
 conda install -c conda-forge pycocotools -y
 conda install nb_conda -y
+pip install ipykernel
+python -m ipykernel install --user --name tf_obj
