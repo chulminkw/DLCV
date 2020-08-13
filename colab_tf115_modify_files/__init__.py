@@ -152,8 +152,6 @@ from .load_backend import symbolic
 from .load_backend import eager
 from .load_backend import size
 from .load_backend import control_dependencies
-from .load_backend import control_flow_ops
-from .load_backend import set_image_dim_ordering
 
 if backend() == 'theano':
     from .load_backend import pattern_broadcast
@@ -163,8 +161,6 @@ elif backend() == 'tensorflow':
     from .load_backend import get_session
     from .load_backend import set_session
     print('#### import #### ')
-    from .load_backend import control_flow_ops
-    from .load_backend import set_image_dim_ordering
     from tensorflow.python.ops import control_flow_ops
 elif backend() == 'cntk':
     from .load_backend import clear_session
