@@ -1,5 +1,7 @@
 train: /content/ox_pet/images/train/ 
 val: /content/ox_pet/images/val/
+test: /content/ox_pet/images/val/
+
 # number of classes
 nc: 37
 # class names
