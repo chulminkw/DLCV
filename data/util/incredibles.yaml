@@ -1,0 +1,7 @@
+train: /content/incredibles/images/train/ 
+val: /content/incredibles/images/train/
+
+# number of classes
+nc: 4
+# class names
+names: [ 'mr_incredible', 'elastic_girl', 'dash', 'violet' ]
