@@ -1,8 +1,0 @@
-train: /content/bccd/images/train/ 
-val: /content/bccd/images/val/
-test: /content/bccd/images/test/
-
-# number of classes
-nc: 3
-# class names
-names: [ 'WBC', 'RBC', 'Platelets' ]
